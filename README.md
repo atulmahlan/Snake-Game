@@ -2,7 +2,7 @@
 ## Description:
 The "Snake Game" is a classic arcade game implemented in JavaScript, where the player controls a growing snake to navigate a grid, eat food, and avoid collisions with the walls or itself. The objective is to achieve the highest possible score by consuming food, which causes the snake to grow in length and increases the game's speed.
 
-### Link to the project :- (Snake Game)[snakegameam.netlify.app]
+### Link to the project :- [Snake Game](snakegameam.netlify.app)
 
 ### Functionalities:
 #### Game Board and Elements:
@@ -26,21 +26,21 @@ The "Snake Game" is a classic arcade game implemented in JavaScript, where the p
 3. Code Explanation
 
 #### HTML Elements:
-> const board = document.getElementById("game-board");
-> const instructionText = document.getElementById("instruction-text");
-> const logo = document.getElementById("logo");
-> const score = document.getElementById("score");
-> const highScoreText = document.getElementById("highScore");
+1. const board = document.getElementById("game-board");
+2. const instructionText = document.getElementById("instruction-text");
+3. const logo = document.getElementById("logo");
+4. const score = document.getElementById("score");
+5. const highScoreText = document.getElementById("highScore");
 
 #### Game Variables:
-> const gridSize = 20;
-> let snake = [{x:10, y:10}];
-> let food = generateFood();
-> let highScore = 0;
-> let direction = "right";
-> let gameInterval;
-> let gameSpeedDelay = 200;
-> let gameStarted = false;
+1. const gridSize = 20;
+2. let snake = [{x:10, y:10}];
+3. let food = generateFood();
+4. let highScore = 0;
+5. let direction = "right";
+6. let gameInterval;
+7. let gameSpeedDelay = 200;
+8. let gameStarted = false;
 
 #### Drawing Functions:
 1. draw(): Clears and redraws the game board, snake, and food.
