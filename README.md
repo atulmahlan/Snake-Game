@@ -2,8 +2,6 @@
 ## Description:
 The "Snake Game" is a classic arcade game implemented in JavaScript, where the player controls a growing snake to navigate a grid, eat food, and avoid collisions with the walls or itself. The objective is to achieve the highest possible score by consuming food, which causes the snake to grow in length and increases the game's speed.
 
-### Link to the project :- [Snake Game](snakegameam.netlify.app)
-
 ### Functionalities:
 #### Game Board and Elements:
 1. The game is played on a grid defined by gridSize.
