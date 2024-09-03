@@ -51,7 +51,7 @@ The "Snake Game" is a classic arcade game implemented in JavaScript, where the p
 > function generateFood() { \
 >    const x = Math.floor(Math.random() * gridSize) + 1; \
 >    const y = Math.floor(Math.random() * gridSize) + 1; \
->    return {x, y}; \
+>    return {x, y}; 
 
 #### Movement and Game Logic:
 1. move(): Moves the snake in the current direction, checks for food collision, and increases speed if food is eaten.
